@@ -27,6 +27,7 @@ function App() {
       return [...currentTodos, { id: crypto.randomUUID(), title, completed: false }];
     });
   }
+  
   //toggleToDo function is used to mark a todo item as completed or incomplete
   function toggleToDo(id, completed) {
     setTodos((currentTodos) => {
