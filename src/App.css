@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+  }
+.container{
+    max-width:720px;
+}
+.btn-danger{
+    margin-left:10px;
+}
+.btn{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+h2 {
+    font-family: Lobster, Monospace;
+  }
+.form-check-input{
+    margin-right:5px;
+}
+.task-label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
