@@ -2,7 +2,6 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import NewTodoForm from "./components/NewTodoForm";
 import TodoList from "./components/TodoList";
-import Header from "./components/Header";
 
 function App() {
   const [todos, setTodos] = useState(() => {
@@ -49,10 +48,9 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <div class="container p-5 my-5 bg-dark text-white">
+    <div className="container p-5 my-5 bg-dark text-white">
       <NewTodoForm onSubmit={addTodo} />
-      <h2 class="text-center">ToDo List</h2>
+      <h2 className="text-center">ToDo List</h2>
       <TodoList todos={todos} toggleToDo={toggleToDo} deleteToDo={deleteToDo} />
     </div>
     </>

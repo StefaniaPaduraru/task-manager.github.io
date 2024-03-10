@@ -15,7 +15,7 @@ function TodoItem({ completed, id, title, toggleToDo, deleteToDo}) {
         onClick={() => deleteToDo(id)}
         className="btn btn-danger"
       >
-       <i class="fa fa-trash"></i>
+       <i className="fa fa-trash"></i>
       </button>
     </li>
   );
